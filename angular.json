@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "add": {
+=======
+    "edit": {
+>>>>>>> edit-feature2
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/add",
+=======
+            "outputPath": "dist/edit",
+>>>>>>> edit-feature2
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +68,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "browserTarget": "add:build:production"
             },
             "development": {
               "browserTarget": "add:build:development"
+=======
+              "browserTarget": "edit:build:production"
+            },
+            "development": {
+              "browserTarget": "edit:build:development"
+>>>>>>> edit-feature2
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +86,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "add:build"
+=======
+            "browserTarget": "edit:build"
+>>>>>>> edit-feature2
           }
         },
         "test": {
@@ -96,6 +115,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "173a612a-4c30-47dd-b135-0e73fac5c56d"
+=======
+    "analytics": "b6766c83-07a2-4576-87ae-3652171ffdd7"
+>>>>>>> edit-feature2
   }
 }
