@@ -1,9 +1,13 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "add",
 =======
   "name": "edit",
 >>>>>>> edit-feature2
+=======
+  "name": "loginsignup",
+>>>>>>> login-feature3
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

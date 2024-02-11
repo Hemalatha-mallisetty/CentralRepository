@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { AddComponent } from './add/add.component';
 =======
 import { EditComponent } from './edit/edit.component';
@@ -23,6 +24,16 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule
+=======
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+>>>>>>> login-feature3
   ],
   providers: [],
   bootstrap: [AppComponent]
