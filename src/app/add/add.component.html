@@ -1,5 +1,24 @@
-<div>
-    <input type="text" [(ngModel)]="newItem" placeholder="Enter item">
-    <button (click)="addItem()">Add Item</button>
-  </div>
-  
+
+\
+
+<script>
+
+// Add a new todo item
+
+addButton.addEventListener('click', () => {
+  const newTodoText = newTodoInput.value;
+  if (newTodoText) {
+    const newTodoItem = createTodoItem(newTodoText);
+    todoList.appendChild(newTodoItem);
+    newTodoInput.value = '';
+  }
+ });  
+ 
+ // Create a new todo item element
+ function createTodoItem(text) {
+  const todoItem = document.createElement('li');
+  todoItem.classList.add('todo-item');
+
+
+ }
+</script>
